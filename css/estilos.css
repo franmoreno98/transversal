@@ -1,0 +1,237 @@
+/* {
+    box-sizing: border-box;
+  } */
+
+body {
+    margin: 0;
+}
+
+
+/* Style the header */
+
+.header {
+    /* background-image: url(../img/club.jpg); */
+    background-image: url(../img/fotoheader.jpg);
+    background-size: cover;
+    padding: 20px;
+    height: 100vh;
+    text-align: center;
+}
+
+.logos {
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+}
+
+.topnav h3 {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav select {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+
+/* Style the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+
+/* Style the topnav links */
+
+.topnav a {
+    /*float: center;*/
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change color on hover */
+
+.topnav a :hover {
+    background-color: rgba(231, 222, 222, 0.692);
+    color: white;
+}
+
+.cuerpo {
+    float: center;
+    text-align: center;
+}
+
+.cuerpo h2 {
+    color: white;
+}
+
+.cuerpo input {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+    padding: 25px 80px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/*Cronometro*/
+
+.crono {
+    background-color: white;
+    padding: 20px;
+    height: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bienvenidos {
+    padding: 100px;
+    height: 300px;
+    background-color: rgb(15, 14, 100);
+}
+
+.bienvenidos h3 {
+    float: right;
+    color: white;
+    justify-content: right;
+}
+
+.bienvenidos p {
+    float: right;
+    color: white;
+    justify-content: right;
+}
+
+.fotoequipo {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 8px;
+}
+
+.quiensomos h3 {
+    float: right;
+    color: white;
+    justify-content: right;
+}
+
+.clasificacion {
+    background-color: rgb(23, 25, 27);
+    padding: 40px;
+}
+
+.clasificacion h1 {
+    color: white;
+}
+
+.clasificacion input {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+    padding: 25px 80px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 30.33%;
+    padding: 10px;
+}
+
+.column img {
+    width: 40px;
+    height: 45px;
+}
+
+
+/* Clear floats after the columns */
+
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+footer {
+    padding: 10px;
+    background-color: #14202A;
+    font-size: 20px;
+    text-align: left;
+    margin: -10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: absolute;
+    left: 0;
+    position: static;
+    bottom: 10px;
+}
+
+.formul {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.insc {
+    border: 2px solid rgb(14, 129, 196);
+    padding: 15px 100px;
+}
+
+.registrar {
+    padding: 15px 100px;
+    background-color: rgb(14, 129, 196);
+    border: none;
+    color: white;
+}
+
+.dades {
+    color: rgb(14, 129, 196);
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}

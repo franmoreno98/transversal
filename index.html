@@ -1,78 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>CSS Website Layout</title>
-<link rel="stylesheet" type="text/css" href="css/estilos.css">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Website Layout</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-<!----------------- Links y logo --------------------->
-<div class="header">
-	<div class="topnav">
-	<h3>C.B. Sant Josep Obrer</h3>
-	<a href="#">Link</a>
-	<a href="#">Link</a>
-	<a href="#">Link</a>
-<!----------------- Seleccion de idiomas --------------------->
-	<select name="idiomas" id="idiomas">
-	<option value="español">Español</option>
-	<option value="catalan">Catalán</option>
-	<option value="ingles">Inglés</option>
-	</select>
-	</div>
-<!----------------- Cuerpo de la cabecera --------------------->
-	<div class="cuerpo">
-		<h2>ALGO ALGO</h2>
-		<input type="submit" value="Enviar">
-	</div>
-</div>
-<!----------------- CRONOMETRO --------------------->
-<div class="crono">
-	cronometro
-</div>
-<!----------------- Bienvenidos --------------------->
-<div class="bienvenidos">
-	<div class="fotoequipo">
-		<img src="img/equipo.jpg" width="400" high="380">
-	</div>
-	<div class="quiensomos">
-		<h3>holas</h3>
-		<br>
-		<h3>holas</h3>
-		<br>
-		<p>Bienvenidos a esta página</p>
-	</div>
-</div>
-<!----------------- CLASSIFICACION --------------------->
-<div class="clasificacion">
-	<h1>Classificación</h1>
-	<input type="submit" value="ENTRA">
-</div>
-<!----------------- Columnas --------------------->
-<div class="row">
-  <div class="column">
-	<h2>Noticia</h2>
-	<img src="img/sanjo.png">
-  </div>
-  
-  <div class="column">
-	<h2>Noticia</h2>
-	<img src="img/sanjo.png">
-  </div>
-  
-  <div class="column">
-	<h2>Noticia</h2>
-	<img src="img/sanjo.png">
-  </div>
-</div>
+    <div class="header">
+        <div class="topnav">
+            <h3>Cursa Bellvitge</h3>
+            <a href="#">Inici</a>
+            <a href="#">Clasificacions</a>
+            <a href="view/inscripcion.html">Inscripcions</a>
+            <a href="#">Noticies</a>
+            <a href="#">Galeria</a>
+
+            <select name="idiomas" id="idiomas">
+			<option value="español">Español</option>
+			<option value="catalan">Catalán</option>
+			<option value="ingles">Inglés</option>
+			</select>
+        </div>
+
+        <div class="cuerpo">
+            <h2>26ª Cursa de Bellvitge</h2>
+            <form action="view/inscripcion.html" method="POST">
+                <input type="submit" value="Inscribirse">
+            </form>
+        </div>
+        <div class="logos">
+            <img src="img/lhogo.png" width="160" high="160">
+            <img src="img/google.png" width="40" high="40">
+            <img src="img/twiter.png" width="40" high="40">
+            <img src="img/facebook.png" width="40" high="40">
+        </div>
+
+    </div>
+    <div class="crono">
+        Queda mucho aún
+    </div>
+    <div class="bienvenidos">
+        <div class="fotoequipo">
+            <img src="" width="400" high="380">
+        </div>
+        <div class="quiensomos">
+            <h3>holas</h3>
+            <br>
+            <h3>holas</h3>
+            <br>
+            <p>Bienvenidos a esta página</p>
+        </div>
+    </div>
+    <div class="clasificacion">
+        <h1>Classificación</h1>
+        <input type="submit" value="ENTRA">
+    </div>
+    <div class="row">
+        <div class="column">
+            <h2>Noticia</h2>
+            <img src="img/sanjo.png">
+        </div>
+
+        <div class="column">
+            <h2>Noticia</h2>
+            <img src="img/sanjo.png">
+        </div>
+
+        <div class="column">
+            <h2>Noticia</h2>
+            <img src="img/sanjo.png">
+        </div>
+    </div>
 
 </body>
 
 <footer>
-	<div>
-	<p>Aquí van links e información</p>
-	</div>
+    <div>
+        <p>Aquí van links e información</p>
+    </div>
 </footer>
 
 </html>

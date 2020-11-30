@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+<script src="../js/nuevo.js"></script>
+
+<body>
+
+    <h2 class="dades">Omple les teves dades</h2>
+    <div class="formul">
+        <form action="../model/inscripcion.php" method="POST" onsubmit="return validarForm()">
+            <div class="row">
+                <div class="column">
+                    <input type="text" class="insc" id="fdni" name="fdni" placeholder="Introduzca su DNI"><br><br>
+                </div>
+                <div class="column">
+                    <input type="text" class="insc" id="fnom" name="fnom" placeholder="Nom"><br><br>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" class="insc" id="fprimer" name="fprimer" placeholder="Primer Cognom"><br><br>
+                    </div>
+                    <div class="column">
+                        <input type="text" class="insc" id="fsegon" name="fsegon" placeholder="Segon Cognom"><br><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" class="insc" id="femail" name="femail" placeholder="Email"><br><br>
+                    </div>
+                    <div class="column">
+                        <input type="date" class="insc" id="fdata" name="fdata"><br><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <select class="insc" name="fsexe" id="fsexe">
+                        <option value="home">Home</option>
+                        <option value="dona">Dona</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <select class="insc" name="fcateoria" id="fcategoria">
+                        <option value="0-6">0-6 Anys</option>
+                        <option value="7-10">7-10 Anys</option>
+                        <option value="11-14">11-14 Anys</option>
+                        <option value="15-17">15-17 Anys</option>
+                        <option value="+18">+18 Anys</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="submit" class="registrar" name="registrar" value="Registrar">
+                        <div id="message"></div><br>
+                    </div>
+                </div>
+        </form>
+        </div>
+
+
+</body>
+
+</html>
